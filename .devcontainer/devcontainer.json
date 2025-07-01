@@ -1,0 +1,6 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base-debian:latest",
+  "features": {
+    "ghcr.io/roul/devcontainer-features/mise-bun:1": {}
+  }
+}
