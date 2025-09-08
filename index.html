@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Derek's Internet Room</title>
+    <style>
+      body {
+        background-image: url(https://images.steamusercontent.com/ugc/879748616164108107/8F44EE6DAFB4F4E2469AA4947059A09E1A78E93C/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+        background-size: cover;
+        image-rendering: pixelated;
+
+        height: 100vh;
+        padding: 60px;
+        margin: 0;
+        text-align: center;
+      }
+
+      h1 {
+        background: linear-gradient(
+          177deg,
+          #ff004c 0%,
+          #00ffd5 50%,
+          #fffc00 100%
+        );
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        font-size: clamp(2rem, 7vh, 8rem);
+        letter-spacing: 3px;
+        text-shadow:
+          2px 2px 0 #ff00ff,
+          4px 4px 0 #00ff00,
+          6px 6px 0 #00ffff,
+          8px 8px 0 #ff8800,
+          10px 10px 0 #0000ff;
+        font-family: "Impact", "Comic Sans MS", fantasy;
+        transform: skewY(-12deg) rotate(-2deg) scale(0.85, 1.4);
+        animation: glitch 2s infinite;
+      }
+
+      @keyframes glitch {
+        0% {
+          transform: translate(0) skewY(-12deg) rotate(-2deg) scale(0.85, 1.4);
+        }
+        20% {
+          transform: translate(-3px, 2px) skewY(-12deg) rotate(1deg)
+            scale(0.9, 1.35);
+        }
+        40% {
+          transform: translate(3px, -2px) skewY(-12deg) rotate(-1deg)
+            scale(0.8, 1.45);
+        }
+        60% {
+          transform: translate(-2px, -1px) skewY(-12deg) rotate(2deg)
+            scale(0.9, 1.4);
+        }
+        80% {
+          transform: translate(2px, 1px) skewY(-12deg) rotate(-3deg)
+            scale(0.85, 1.35);
+        }
+        100% {
+          transform: translate(0) skewY(-12deg) rotate(-2deg) scale(0.85, 1.4);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Derek's Internet Room</h1>
+  </body>
+</html>
